@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ditogar/my-portfolio/static/css/main.d221dc40.css",
+    "main.js": "/ditogar/my-portfolio/static/js/main.21be7008.js",
+    "index.html": "/ditogar/my-portfolio/index.html",
+    "main.d221dc40.css.map": "/ditogar/my-portfolio/static/css/main.d221dc40.css.map",
+    "main.21be7008.js.map": "/ditogar/my-portfolio/static/js/main.21be7008.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d221dc40.css",
+    "static/js/main.21be7008.js"
+  ]
+}
