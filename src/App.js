@@ -5,7 +5,7 @@ import HomeScreen from "./pages/Home";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <div className="app" style={{backgroundColor: '#333333', height: '100vh'}}>
         <div style={{height: '15%'}}>
           <Navbar />
