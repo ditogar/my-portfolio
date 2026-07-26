@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - automation/package-pokemon-snapshot
+  pull_request:
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
@@ -73,7 +76,6 @@ jobs:
           try_value workflow GITHUB_TOKEN "$TOKEN_WORKFLOW" || true
           [ -n "$selected_type" ] || try_context secret "$ALL_SECRETS" || true
           [ -n "$selected_type" ] || try_context variable "$ALL_VARS" || true
-
           if [ -z "$selected_type" ]; then
             echo "No credential can read ditogar/pokemon" | tee -a "$report"
             exit 0
